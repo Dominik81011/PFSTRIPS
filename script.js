@@ -256,15 +256,20 @@ document.getElementById('airport-select2').addEventListener('change', function (
 
 
 // Aktualisiert das Bild basierend auf dem ausgewählten Flughafen
+// Aktualisiert das Bild basierend auf dem ausgewählten Flughafen
 function updateAirportChart(airportCode) {
     const imageElement = document.getElementById('zoomImage');
     
-    // Erstellen des Bildpfads basierend auf dem Flughafen ICAO-Code
-    const imagePath = `charts/${airportCode}GROUND.png`;
+    // Erstellen des Bildpfads mit dem vollständigen GitHub-RAW-URL
+    const imagePath = `https://raw.githubusercontent.com/Dominik81011/PFSTRIPS/main/charts/${airportCode}GROUND.png`;
+    
+    // Logge den Bildpfad, um sicherzustellen, dass er korrekt ist
+    console.log("Bildpfad:", imagePath);
     
     // Aktualisieren des Bildes
     imageElement.src = imagePath;
 }
+
 
 // Flughafen Dropdown 1
 document.getElementById('airport-select').addEventListener('change', function () {
