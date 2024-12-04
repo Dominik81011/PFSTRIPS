@@ -1,1 +1,529 @@
-const _0x33df1b=_0x547b;(function(_0x205fb5,_0x5411d9){const _0x5c85fc=_0x547b,_0xb0a8ce=_0x205fb5();while(!![]){try{const _0x492ebb=parseInt(_0x5c85fc(0x16f))/0x1*(-parseInt(_0x5c85fc(0x1d6))/0x2)+parseInt(_0x5c85fc(0x1b8))/0x3*(parseInt(_0x5c85fc(0x18f))/0x4)+parseInt(_0x5c85fc(0x1ad))/0x5*(-parseInt(_0x5c85fc(0x1ce))/0x6)+-parseInt(_0x5c85fc(0x18e))/0x7*(parseInt(_0x5c85fc(0x19c))/0x8)+-parseInt(_0x5c85fc(0x1e3))/0x9*(parseInt(_0x5c85fc(0x16a))/0xa)+-parseInt(_0x5c85fc(0x1d9))/0xb*(-parseInt(_0x5c85fc(0x1a1))/0xc)+parseInt(_0x5c85fc(0x1c1))/0xd;if(_0x492ebb===_0x5411d9)break;else _0xb0a8ce['push'](_0xb0a8ce['shift']());}catch(_0x2d6190){_0xb0a8ce['push'](_0xb0a8ce['shift']());}}}(_0xda9b,0x8c785));const airportFrequencies={'MDPC':{'APP':_0x33df1b(0x1c5),'TWR':_0x33df1b(0x1a8),'GND':_0x33df1b(0x1bd),'DEL':_0x33df1b(0x16e)},'EGKK':{'APP':_0x33df1b(0x1e0),'TWR':_0x33df1b(0x192),'GND':_0x33df1b(0x1b5),'DEL':_0x33df1b(0x17e)},'MDST':{'TWR':'118.300\x20MHz'},'MDAB':{'TWR':_0x33df1b(0x1c8)},'LEMH':{'APP':'120.700\x20MHz','TWR':_0x33df1b(0x180),'GND':_0x33df1b(0x1e5)},'GCLP':{'APP':_0x33df1b(0x18d),'TWR':'118.300\x20MHz','GND':'121.700\x20MHz'},'EGHI':{'TWR':_0x33df1b(0x180)},'EFKT':{'TWR':_0x33df1b(0x1dd)},'LYTV':{'TWR':_0x33df1b(0x17d)}};function generateSquawkCode(){const _0x18b896=_0x33df1b;return'3'+Math['floor'](Math[_0x18b896(0x1bc)]()*0x3e8)[_0x18b896(0x1b9)]()[_0x18b896(0x1ab)](0x3,'0');}function openPopup(_0x13033f){const _0x50415d=_0x33df1b,_0x3fa02a=document['getElementById']('popup'),_0x528c3f=document[_0x50415d(0x178)](_0x50415d(0x1a3));_0x528c3f[_0x50415d(0x1bb)]=_0x13033f,_0x3fa02a['style'][_0x50415d(0x1c2)]='flex';}function closePopup(){const _0x45465b=_0x33df1b,_0x534bf6=document['getElementById']('popup');_0x534bf6[_0x45465b(0x188)][_0x45465b(0x1c2)]=_0x45465b(0x1ea);}document['querySelector'](_0x33df1b(0x187))['addEventListener'](_0x33df1b(0x1e8),function(){const _0x403f1e=generateSquawkCode();openPopup(_0x403f1e);}),document[_0x33df1b(0x178)](_0x33df1b(0x1d3))[_0x33df1b(0x1d8)](_0x33df1b(0x1e8),function(){const _0x5bc5eb=generateSquawkCode();openPopup(_0x5bc5eb);}),document[_0x33df1b(0x178)](_0x33df1b(0x1ba))[_0x33df1b(0x1d8)](_0x33df1b(0x1e8),closePopup);let lastNotificationTime=0x0;const notification=document[_0x33df1b(0x178)]('notification');function playNotificationSound(){const _0x1c61ec=_0x33df1b,_0x2d10f3=new Audio(_0x1c61ec(0x1df));_0x2d10f3[_0x1c61ec(0x196)]();}function showNotification(_0x1416f2){const _0x438234=_0x33df1b,_0x22a5d5=Date[_0x438234(0x18a)]();_0x22a5d5-lastNotificationTime>0xbb8&&(lastNotificationTime=_0x22a5d5,notification[_0x438234(0x1bb)]=_0x438234(0x193)+_0x1416f2,notification[_0x438234(0x188)]['display']='block',setTimeout(()=>{const _0x55cfc7=_0x438234;notification[_0x55cfc7(0x188)]['display']=_0x55cfc7(0x1ea);},0xbb8),playNotificationSound());}document[_0x33df1b(0x178)](_0x33df1b(0x179))[_0x33df1b(0x1d8)]('click',function(){const _0x3dd7e9=_0x33df1b,_0x5557c8=document[_0x3dd7e9(0x178)](_0x3dd7e9(0x1a3))[_0x3dd7e9(0x1bb)];navigator[_0x3dd7e9(0x167)][_0x3dd7e9(0x166)](_0x5557c8)[_0x3dd7e9(0x195)](()=>{closePopup(),showNotification(_0x5557c8);})[_0x3dd7e9(0x17b)](_0x15e78e=>{const _0x28c646=_0x3dd7e9;console[_0x28c646(0x18c)](_0x28c646(0x1ae),_0x15e78e);});}),document[_0x33df1b(0x178)](_0x33df1b(0x1cf))[_0x33df1b(0x1d8)](_0x33df1b(0x1ca),function(){const _0x470b5a=_0x33df1b,_0x3f2d36=this[_0x470b5a(0x1a4)],_0x3c1737=document[_0x470b5a(0x178)](_0x470b5a(0x1d7)),_0x21a761=document[_0x470b5a(0x178)](_0x470b5a(0x199)),_0x1bc1f5=document[_0x470b5a(0x178)](_0x470b5a(0x182)),_0x48efba=_0x1bc1f5[_0x470b5a(0x174)];_0x3c1737[_0x470b5a(0x1bb)]=_0x470b5a(0x194),_0x21a761['textContent']=_0x470b5a(0x194);for(let _0xedbc4=0x0;_0xedbc4<_0x48efba['length'];_0xedbc4++){_0x48efba[_0xedbc4][_0x470b5a(0x1b6)]=![];}switch(_0x3f2d36){case _0x470b5a(0x1b1):_0x3c1737['textContent']=_0x470b5a(0x1b1),_0x21a761[_0x470b5a(0x1bb)]=_0x470b5a(0x181);break;case _0x470b5a(0x189):_0x3c1737[_0x470b5a(0x1bb)]=_0x470b5a(0x189),_0x21a761[_0x470b5a(0x1bb)]='LPA';break;case _0x470b5a(0x175):_0x3c1737[_0x470b5a(0x1bb)]='EGKK',_0x21a761[_0x470b5a(0x1bb)]='LHR';break;case _0x470b5a(0x1a7):_0x3c1737[_0x470b5a(0x1bb)]='MDAB',_0x21a761[_0x470b5a(0x1bb)]=_0x470b5a(0x183);break;case _0x470b5a(0x191):_0x3c1737['textContent']=_0x470b5a(0x191),_0x21a761[_0x470b5a(0x1bb)]=_0x470b5a(0x1b7);break;case _0x470b5a(0x1d0):_0x3c1737[_0x470b5a(0x1bb)]='EFKT',_0x21a761[_0x470b5a(0x1bb)]=_0x470b5a(0x1e1);break;case'LYTV':_0x3c1737[_0x470b5a(0x1bb)]=_0x470b5a(0x1a2),_0x21a761[_0x470b5a(0x1bb)]=_0x470b5a(0x1ac);break;case _0x470b5a(0x1bf):_0x3c1737[_0x470b5a(0x1bb)]=_0x470b5a(0x1bf),_0x21a761[_0x470b5a(0x1bb)]=_0x470b5a(0x1e6);break;case'EGHI':_0x3c1737[_0x470b5a(0x1bb)]=_0x470b5a(0x19f),_0x21a761['textContent']=_0x470b5a(0x1c3);break;default:_0x3c1737['textContent']=_0x470b5a(0x194),_0x21a761['textContent']=_0x470b5a(0x194);}switch(_0x3f2d36){case _0x470b5a(0x1b1):case'EGKK':break;case _0x470b5a(0x191):case _0x470b5a(0x1a7):case'EGHI':case _0x470b5a(0x1d0):case _0x470b5a(0x1a2):for(let _0x2e3904=0x0;_0x2e3904<_0x48efba[_0x470b5a(0x1af)];_0x2e3904++){_0x48efba[_0x2e3904][_0x470b5a(0x1a4)]!==_0x470b5a(0x1c7)&&(_0x48efba[_0x2e3904][_0x470b5a(0x1b6)]=!![]);}break;case _0x470b5a(0x1bf):case'GCLP':for(let _0xc43958=0x0;_0xc43958<_0x48efba[_0x470b5a(0x1af)];_0xc43958++){_0x48efba[_0xc43958][_0x470b5a(0x1a4)]==='DEL'&&(_0x48efba[_0xc43958][_0x470b5a(0x1b6)]=!![]);}break;default:for(let _0x1e222f=0x0;_0x1e222f<_0x48efba[_0x470b5a(0x1af)];_0x1e222f++){_0x48efba[_0x1e222f][_0x470b5a(0x1b6)]=![];}}}),document[_0x33df1b(0x178)](_0x33df1b(0x182))[_0x33df1b(0x1d8)](_0x33df1b(0x1ca),function(){const _0x7513ad=_0x33df1b,_0x584e28=this['value'],_0x10b86c=document[_0x7513ad(0x178)]('pos-code'),_0x196bdc=document[_0x7513ad(0x178)](_0x7513ad(0x177)),_0x91471f=document['getElementById'](_0x7513ad(0x1cf))[_0x7513ad(0x1a4)],_0x22c020=airportFrequencies[_0x91471f][_0x584e28];_0x22c020?_0x196bdc['textContent']=_0x22c020:_0x196bdc[_0x7513ad(0x1bb)]=_0x7513ad(0x194);switch(_0x584e28){case _0x7513ad(0x1b0):_0x10b86c['textContent']=_0x7513ad(0x1b0);break;case'TWR':_0x10b86c[_0x7513ad(0x1bb)]='TWR';break;case _0x7513ad(0x1da):_0x10b86c[_0x7513ad(0x1bb)]=_0x7513ad(0x1da);break;case _0x7513ad(0x185):_0x10b86c[_0x7513ad(0x1bb)]=_0x7513ad(0x185);break;default:_0x10b86c[_0x7513ad(0x1bb)]='N/A';}});function updateAirportChart(_0x401658){const _0x3eda3f=_0x33df1b,_0x3cf1c8=document['getElementById'](_0x3eda3f(0x1cc)),_0x3c9799='charts/'+_0x401658+_0x3eda3f(0x1e7);_0x3cf1c8['src']=_0x3c9799;}document['getElementById'](_0x33df1b(0x1cf))['addEventListener']('change',function(){const _0x1342ed=_0x33df1b,_0x165b64=this[_0x1342ed(0x1a4)],_0x428689=document['getElementById'](_0x1342ed(0x1d7)),_0x3e4447=document[_0x1342ed(0x178)](_0x1342ed(0x199)),_0x13c0d5=document[_0x1342ed(0x178)](_0x1342ed(0x182)),_0x4bad31=_0x13c0d5[_0x1342ed(0x174)];_0x428689[_0x1342ed(0x1bb)]=_0x1342ed(0x194),_0x3e4447[_0x1342ed(0x1bb)]=_0x1342ed(0x194);for(let _0x36472f=0x0;_0x36472f<_0x4bad31[_0x1342ed(0x1af)];_0x36472f++){_0x4bad31[_0x36472f][_0x1342ed(0x1b6)]=![];}switch(_0x165b64){case _0x1342ed(0x1b1):_0x428689[_0x1342ed(0x1bb)]=_0x1342ed(0x1b1),_0x3e4447[_0x1342ed(0x1bb)]=_0x1342ed(0x181),updateAirportChart(_0x1342ed(0x1b1));break;case _0x1342ed(0x189):_0x428689['textContent']=_0x1342ed(0x189),_0x3e4447[_0x1342ed(0x1bb)]=_0x1342ed(0x1d1),updateAirportChart('GCLP');break;case _0x1342ed(0x175):_0x428689[_0x1342ed(0x1bb)]=_0x1342ed(0x175),_0x3e4447[_0x1342ed(0x1bb)]=_0x1342ed(0x17a),updateAirportChart(_0x1342ed(0x175));break;case _0x1342ed(0x1a7):_0x428689[_0x1342ed(0x1bb)]=_0x1342ed(0x1a7),_0x3e4447['textContent']=_0x1342ed(0x183),updateAirportChart(_0x1342ed(0x1a7));break;case _0x1342ed(0x191):_0x428689[_0x1342ed(0x1bb)]=_0x1342ed(0x191),_0x3e4447[_0x1342ed(0x1bb)]=_0x1342ed(0x1b7),updateAirportChart(_0x1342ed(0x191));break;case'EFKT':_0x428689['textContent']=_0x1342ed(0x1d0),_0x3e4447['textContent']=_0x1342ed(0x1e1),updateAirportChart('EFKT');break;case _0x1342ed(0x1a2):_0x428689['textContent']=_0x1342ed(0x1a2),_0x3e4447['textContent']=_0x1342ed(0x1ac),updateAirportChart(_0x1342ed(0x1a2));break;case _0x1342ed(0x1bf):_0x428689[_0x1342ed(0x1bb)]='LEMH',_0x3e4447['textContent']=_0x1342ed(0x1e6),updateAirportChart(_0x1342ed(0x1bf));break;case'EGHI':_0x428689[_0x1342ed(0x1bb)]=_0x1342ed(0x19f),_0x3e4447[_0x1342ed(0x1bb)]=_0x1342ed(0x1c3),updateAirportChart('EGHI');break;default:_0x428689[_0x1342ed(0x1bb)]='N/A',_0x3e4447['textContent']=_0x1342ed(0x194);break;}switch(_0x165b64){case _0x1342ed(0x1b1):case _0x1342ed(0x175):break;case _0x1342ed(0x191):case _0x1342ed(0x1a7):case _0x1342ed(0x19f):case _0x1342ed(0x1d0):case _0x1342ed(0x1a2):for(let _0xbfe156=0x0;_0xbfe156<_0x4bad31[_0x1342ed(0x1af)];_0xbfe156++){_0x4bad31[_0xbfe156][_0x1342ed(0x1a4)]!==_0x1342ed(0x1c7)&&(_0x4bad31[_0xbfe156][_0x1342ed(0x1b6)]=!![]);}break;case _0x1342ed(0x1bf):case _0x1342ed(0x189):for(let _0x327a76=0x0;_0x327a76<_0x4bad31['length'];_0x327a76++){_0x4bad31[_0x327a76]['value']===_0x1342ed(0x185)&&(_0x4bad31[_0x327a76][_0x1342ed(0x1b6)]=!![]);}break;default:for(let _0x31600c=0x0;_0x31600c<_0x4bad31[_0x1342ed(0x1af)];_0x31600c++){_0x4bad31[_0x31600c][_0x1342ed(0x1b6)]=![];}}});function openZoom(){const _0x97fb55=_0x33df1b;document['getElementById'](_0x97fb55(0x1e4))[_0x97fb55(0x188)][_0x97fb55(0x1c2)]=_0x97fb55(0x1be);}function closeZoom(){const _0x1719aa=_0x33df1b;document[_0x1719aa(0x178)]('zoomPopup')[_0x1719aa(0x188)][_0x1719aa(0x1c2)]='none';}function openZoom(){const _0xcec8d6=_0x33df1b,_0x4f5812=document[_0xcec8d6(0x178)](_0xcec8d6(0x1e4)),_0x16b3e5=document['getElementById'](_0xcec8d6(0x1cc)),_0x187af9=document[_0xcec8d6(0x178)](_0xcec8d6(0x18b));_0x187af9[_0xcec8d6(0x19d)]=_0x16b3e5['src'],_0x4f5812[_0xcec8d6(0x1de)]['add']('show');}function closeZoom(){const _0x7a935c=_0x33df1b,_0x3848dc=document['getElementById'](_0x7a935c(0x1e4));_0x3848dc[_0x7a935c(0x1de)]['remove']('show');}document[_0x33df1b(0x178)]('zoomPopup')['addEventListener'](_0x33df1b(0x1e8),function(_0x5662ed){const _0x20abc8=_0x33df1b;_0x5662ed[_0x20abc8(0x1d2)]===this&&closeZoom();});const addStripBtn=document['getElementById'](_0x33df1b(0x1dc)),deleteStripBtn=document['getElementById'](_0x33df1b(0x1c6));addStripBtn[_0x33df1b(0x1d8)](_0x33df1b(0x1e8),()=>{const _0x30d57f=_0x33df1b,_0x2239ac=createStrip();document[_0x30d57f(0x178)](_0x30d57f(0x1b4))[_0x30d57f(0x16d)](_0x2239ac);});function createStrip(){const _0x255233=_0x33df1b,_0x22f272=document['createElement'](_0x255233(0x176));_0x22f272[_0x255233(0x1de)][_0x255233(0x1b2)](_0x255233(0x1cd));const _0x2065bf=[['C/S',_0x255233(0x197),_0x255233(0x19a),''],[_0x255233(0x171),'',_0x255233(0x19b),_0x255233(0x1c9)],[_0x255233(0x1d5),_0x255233(0x1a6),_0x255233(0x16c),_0x255233(0x17c)],[_0x255233(0x172),'','','']];return _0x2065bf[_0x255233(0x184)]((_0x5ee46e,_0xe39e1f)=>{_0x5ee46e['forEach']((_0x37c101,_0x281cdc)=>{const _0x217933=_0x547b,_0x442915=document['createElement'](_0x217933(0x176));_0x442915[_0x217933(0x1de)][_0x217933(0x1b2)](_0x217933(0x168)),(_0x37c101==='TEMP\x20ALT'||_0x37c101==='SQUAWK'||_0x37c101===_0x217933(0x1a6))&&(_0x442915[_0x217933(0x1c0)](_0x217933(0x1b3),_0x217933(0x19e)),_0x442915[_0x217933(0x1d8)]('input',restrictToNumbers)),_0xe39e1f===0x3&&(_0x442915[_0x217933(0x1de)][_0x217933(0x1b2)](_0x217933(0x173)),_0x442915[_0x217933(0x1c0)](_0x217933(0x1b3),'true'),_0x442915[_0x217933(0x188)][_0x217933(0x1aa)]=_0x217933(0x1a9)),_0x442915[_0x217933(0x1bb)]=_0x37c101,_0x22f272[_0x217933(0x16d)](_0x442915),_0x442915[_0x217933(0x1d8)](_0x217933(0x16b),()=>{const _0x245ace=_0x217933;_0x442915[_0x245ace(0x1c0)](_0x245ace(0x1b3),_0x245ace(0x19e)),_0x442915[_0x245ace(0x1a0)]();});});}),_0x22f272[_0x255233(0x1c0)](_0x255233(0x186),_0x255233(0x19e)),_0x22f272[_0x255233(0x1d8)]('dragstart',dragStart),_0x22f272[_0x255233(0x1d8)](_0x255233(0x17f),dragEnd),_0x22f272;}deleteStripBtn['addEventListener'](_0x33df1b(0x1e8),()=>{const _0x85a190=_0x33df1b,_0x3f8fd8=document[_0x85a190(0x178)](_0x85a190(0x1b4)),_0xdb4292=_0x3f8fd8['getElementsByClassName'](_0x85a190(0x1cd));_0xdb4292[_0x85a190(0x1af)]>0x0&&_0x3f8fd8[_0x85a190(0x1e9)](_0xdb4292[_0xdb4292[_0x85a190(0x1af)]-0x1]);});function restrictToNumbers(_0x5f1507){const _0xcca140=_0x33df1b,_0x59bb60=_0x5f1507['target']['textContent'];!/^\d*$/[_0xcca140(0x1c4)](_0x59bb60)&&(_0x5f1507['target'][_0xcca140(0x1bb)]=_0x59bb60[_0xcca140(0x190)](/[^\d]/g,''));}function _0xda9b(){const _0x497756=['121.900\x20MHz','flex','LEMH','setAttribute','21290009kSehPg','display','SOU','test','119.850\x20MHz','deleteStripBtn','TWR','118.450\x20MHz','DEP\x20SID','change','move','zoomImage','strip','36198Jypcxk','airport-select','EFKT','LPA','target','generate-btn','preventDefault','SQUAWK','2290IQtFPp','icao-code','addEventListener','43021JgNAdK','GND','effectAllowed','addStripBtn','118.950\x20MHz','classList','notify.mp3','126.825\x20MHz','KTT','dropEffect','3782637crdmkG','zoomPopup','121.755\x20MHz','MAH','GROUND.png','click','removeChild','none','dragover','writeText','clipboard','cell','querySelectorAll','10NoNgJg','dblclick','ALT\x20AIR','appendChild','121.650\x20MHz','5gabDoK','drop','A/C','ROUTE','route-cell','options','EGKK','div','freq-code','getElementById','copy-btn','LHR','catch','RWY','118.000\x20MHz','121.955\x20MHz','dragend','118.205\x20MHz','PUJ','airport-select2','BRX','forEach','DEL','draggable','.squawk','style','GCLP','now','zoomedImage','error','124.300\x20MHz','26509wwsTOW','4PjGjyg','replace','MDST','124.230\x20MHz','Squawk\x20Code\x20copied\x20to\x20clipboard:\x20','N/A','then','play','TEMP\x20ALT','.strip-zone','iata-code','DEP\x20AIR','ARR\x20AIR','2168ebUTLg','src','true','EGHI','focus','2604EuPIUL','LYTV','squawk-code','value','dragging','CRZ\x20ALT','MDAB','118.800\x20MHz','span\x204','gridColumn','padStart','TIV','835wMBWCF','Failed\x20to\x20copy\x20text:\x20','length','APP','MDPC','add','contenteditable','delivery-zone','121.805\x20MHz','disabled','STI','1646373CQnqAJ','toString','close-popup-btn','textContent','random'];_0xda9b=function(){return _0x497756;};return _0xda9b();}const zones=document[_0x33df1b(0x169)](_0x33df1b(0x198));function _0x547b(_0x34ea18,_0x35eec0){const _0xda9b56=_0xda9b();return _0x547b=function(_0x547b08,_0x454882){_0x547b08=_0x547b08-0x165;let _0x378ff3=_0xda9b56[_0x547b08];return _0x378ff3;},_0x547b(_0x34ea18,_0x35eec0);}zones[_0x33df1b(0x184)](_0x454a53=>{const _0x40ce23=_0x33df1b;_0x454a53[_0x40ce23(0x1d8)](_0x40ce23(0x165),dragOver),_0x454a53[_0x40ce23(0x1d8)](_0x40ce23(0x170),dropStrip);});let draggedStrip=null;function dragStart(_0x39de5c){const _0x3017c7=_0x33df1b;draggedStrip=this,this[_0x3017c7(0x1de)]['add'](_0x3017c7(0x1a5)),_0x39de5c['dataTransfer'][_0x3017c7(0x1db)]='move';}function dragEnd(){const _0x55d641=_0x33df1b;this[_0x55d641(0x1de)]['remove']('dragging'),draggedStrip=null;}function dragOver(_0x3deda4){const _0x27ddba=_0x33df1b;_0x3deda4[_0x27ddba(0x1d4)](),_0x3deda4['dataTransfer'][_0x27ddba(0x1e2)]=_0x27ddba(0x1cb);}function dropStrip(_0x4e6707){const _0x3fc1d4=_0x33df1b;_0x4e6707[_0x3fc1d4(0x1d4)](),draggedStrip&&this[_0x3fc1d4(0x16d)](draggedStrip);}
+// Frequenzen für die Flughäfen und Positionen
+const airportFrequencies = {
+    'MDPC': { // Punta Cana
+        'APP': '119.850 MHz',
+        'TWR': '118.800 MHz',
+        'GND': '121.900 MHz',
+        'DEL': '121.650 MHz'
+    },
+    'EGKK': { // London Gatwick
+        'APP': '126.825 MHz',
+        'TWR': '124.230 MHz',
+        'GND': '121.805 MHz',
+        'DEL': '121.955 MHz'
+    },
+    'MDST': { // Cibao
+        'TWR': '118.300 MHz'
+    },
+    'MDAB': { // Arroyo Barril
+        'TWR': '118.450 MHz'
+    },
+    'LEMH': { // Menorca
+        'APP': '120.700 MHz',
+        'TWR': '118.205 MHz',
+        'GND': '121.755 MHz'
+    },
+    'GCLP': { // Gran Canaria
+        'APP': '124.300 MHz',
+        'TWR': '118.300 MHz',
+        'GND': '121.700 MHz'
+    },
+    'EGHI': { // Southampton
+        'TWR': '118.205 MHz'
+    },
+    'EFKT': { // Kittila
+        'TWR': '118.950 MHz'
+    },
+    'LYTV': { // Tivat
+        'TWR': '118.000 MHz'
+    }
+};
+
+// Funktion zum Generieren eines zufälligen Squawk Codes, der mit der Zahl 3 beginnt
+function generateSquawkCode() {
+    return '3' + Math.floor(Math.random() * 1000).toString().padStart(3, '0'); // Startet immer mit '3' und fügt 3 Zufallszahlen hinzu
+}
+
+// Pop-up anzeigen
+function openPopup(squawkCode) {
+    const popup = document.getElementById('popup');
+    const squawkCodeElement = document.getElementById('squawk-code');
+    squawkCodeElement.textContent = squawkCode;
+    popup.style.display = 'flex'; // Pop-up sichtbar machen
+}
+
+// Pop-up schließen
+function closePopup() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'none'; // Pop-up verstecken
+}
+
+// Ereignis für den Button "SQUAWK GENERATOR"
+document.querySelector('.squawk').addEventListener('click', function() {
+    const squawkCode = generateSquawkCode();
+    openPopup(squawkCode); // Pop-up mit Squawk Code öffnen
+});
+
+// Ereignis für den Button "Generate New" im Popup
+document.getElementById('generate-btn').addEventListener('click', function() {
+    const squawkCode = generateSquawkCode();
+    openPopup(squawkCode); // Neues Pop-up mit Squawk Code öffnen
+});
+
+// Ereignis für den "Close" Button im Popup
+document.getElementById('close-popup-btn').addEventListener('click', closePopup);
+
+// Variablen für den Cooldown und die Benachrichtigung
+let lastNotificationTime = 0;
+const notification = document.getElementById('notification');
+
+// Funktion, um den Sound abzuspielen
+function playNotificationSound() {
+    const audio = new Audio('notify.mp3');
+    audio.play();
+}
+
+// Funktion, um die Benachrichtigung anzuzeigen
+function showNotification(squawkCode) {
+    // Überprüfen, ob genug Zeit (3 Sekunden) seit der letzten Benachrichtigung vergangen ist
+    const currentTime = Date.now();
+    if (currentTime - lastNotificationTime > 3000) {
+        lastNotificationTime = currentTime;
+
+        // Den Squawk Code in der Benachrichtigung setzen
+        notification.textContent = `Squawk Code copied to clipboard: ${squawkCode}`;
+
+        // Benachrichtigung anzeigen
+        notification.style.display = 'block';
+
+        // Nach 3 Sekunden Benachrichtigung ausblenden
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, 3000);
+
+        // Sound abspielen
+        playNotificationSound();
+    }
+}
+
+// Ereignis für den "Copy To Clipboard"-Button
+document.getElementById('copy-btn').addEventListener('click', function () {
+    const squawkCode = document.getElementById('squawk-code').textContent;
+
+    // Verwende die Clipboard API, um den Text zu kopieren
+    navigator.clipboard.writeText(squawkCode)
+        .then(() => {
+            closePopup(); // Pop-up mit dem Squawk Code schließen
+            showNotification(squawkCode); // Benachrichtigung auf der Seite zeigen
+        })
+        .catch(err => {
+            console.error('Failed to copy text: ', err);
+        });
+});
+
+// Flughafen Dropdown 1
+document.getElementById('airport-select').addEventListener('change', function () {
+    const selectedValue = this.value; 
+    const icaoCodeElement = document.getElementById('icao-code');
+    const iataCodeElement = document.getElementById('iata-code');
+    const dropdown2 = document.getElementById('airport-select2'); // Zweite Dropdown-Liste
+    const options = dropdown2.options; // Alle Optionen in der zweiten Dropdown-Liste
+
+    // Setze ICAO und IATA Standardwerte
+    icaoCodeElement.textContent = 'N/A';
+    iataCodeElement.textContent = 'N/A';
+
+    // Setze alle Optionen in der zweiten Dropdown-Liste auf aktiv
+    for (let i = 0; i < options.length; i++) {
+        options[i].disabled = false;
+    }
+
+    // Deaktiviere bestimmte Optionen und ändere ICAO/IATA Codes basierend auf der Auswahl
+    switch (selectedValue) {
+        case 'MDPC': // Punta Cana
+            icaoCodeElement.textContent = 'MDPC';
+            iataCodeElement.textContent = 'PUJ';
+            break;
+        case 'GCLP': // Gran Canaria
+            icaoCodeElement.textContent = 'GCLP';
+            iataCodeElement.textContent = 'LPA';
+            break;
+        case 'EGKK': // London Gatwick
+            icaoCodeElement.textContent = 'EGKK';
+            iataCodeElement.textContent = 'LHR';
+            break;
+        case 'MDAB': // Arroyo Barril
+            icaoCodeElement.textContent = 'MDAB';
+            iataCodeElement.textContent = 'BRX';
+            break;
+        case 'MDST': // Cibao
+            icaoCodeElement.textContent = 'MDST';
+            iataCodeElement.textContent = 'STI';
+            break;
+        case 'EFKT': // Kittila
+            icaoCodeElement.textContent = 'EFKT';
+            iataCodeElement.textContent = 'KTT';
+            break;
+        case 'LYTV': // Tivat
+            icaoCodeElement.textContent = 'LYTV';
+            iataCodeElement.textContent = 'TIV';
+            break;
+        case 'LEMH': // Menorca
+            icaoCodeElement.textContent = 'LEMH';
+            iataCodeElement.textContent = 'MAH';
+            break;
+        case 'EGHI': // Southampton
+            icaoCodeElement.textContent = 'EGHI';
+            iataCodeElement.textContent = 'SOU';
+            break;
+        default:
+            icaoCodeElement.textContent = 'N/A';
+            iataCodeElement.textContent = 'N/A';
+    }
+
+    // Deaktiviere bestimmte Optionen in der zweiten Dropdown-Liste basierend auf der Auswahl
+    switch (selectedValue) {
+        case 'MDPC': // Punta Cana
+        case 'EGKK': // London Gatwick
+            // Keine Einschränkungen, alle Optionen bleiben aktiviert
+            break;
+
+        case 'MDST': // Cibao
+        case 'MDAB': // Arroyo Barril
+        case 'EGHI': // Southampton
+        case 'EFKT': // Kittila
+        case 'LYTV': // Tivat
+            // Nur TWR aktiv, alle anderen deaktivieren
+            for (let i = 0; i < options.length; i++) {
+                if (options[i].value !== 'TWR') {
+                    options[i].disabled = true;
+                }
+            }
+            break;
+
+        case 'LEMH': // Menorca
+        case 'GCLP': // Gran Canaria
+            // Alle außer DEL aktiv
+            for (let i = 0; i < options.length; i++) {
+                if (options[i].value === 'DEL') {
+                    options[i].disabled = true;
+                }
+            }
+            break;
+
+        default:
+            // Fallback: Alle Optionen aktivieren
+            for (let i = 0; i < options.length; i++) {
+                options[i].disabled = false;
+            }
+    }
+});
+
+// Flughafen Dropdown 2
+document.getElementById('airport-select2').addEventListener('change', function () {
+    const selectedValue = this.value;
+    const posCode = document.getElementById('pos-code');
+    const freqCode = document.getElementById('freq-code'); // Frequenz anzeigen
+
+    // Frequenz basierend auf der Auswahl ändern
+    const selectedAirport = document.getElementById('airport-select').value;
+    const freq = airportFrequencies[selectedAirport][selectedValue];
+
+    if (freq) {
+        freqCode.textContent = freq;
+    } else {
+        freqCode.textContent = 'N/A';
+    }
+
+    // Position Code
+    switch (selectedValue) {
+        case 'APP':
+            posCode.textContent = 'APP';
+            break;
+        case 'TWR':
+            posCode.textContent = 'TWR';
+            break;
+        case 'GND':
+            posCode.textContent = 'GND';
+            break;
+        case 'DEL':
+            posCode.textContent = 'DEL';
+            break;
+        default:
+            posCode.textContent = 'N/A';
+    }
+});
+
+
+// Aktualisiert das Bild basierend auf dem ausgewählten Flughafen
+function updateAirportChart(airportCode) {
+    const imageElement = document.getElementById('zoomImage');
+    
+    // Erstellen des Bildpfads basierend auf dem Flughafen ICAO-Code
+    const imagePath = `charts/${airportCode}GROUND.png`;
+    
+    // Aktualisieren des Bildes
+    imageElement.src = imagePath;
+}
+
+// Flughafen Dropdown 1
+document.getElementById('airport-select').addEventListener('change', function () {
+    const selectedValue = this.value;
+    const icaoCodeElement = document.getElementById('icao-code');
+    const iataCodeElement = document.getElementById('iata-code');
+    const dropdown2 = document.getElementById('airport-select2'); // Zweite Dropdown-Liste
+    const options = dropdown2.options; // Alle Optionen in der zweiten Dropdown-Liste
+
+    // Setze ICAO und IATA Standardwerte
+    icaoCodeElement.textContent = 'N/A';
+    iataCodeElement.textContent = 'N/A';
+
+    // Setze alle Optionen in der zweiten Dropdown-Liste auf aktiv
+    for (let i = 0; i < options.length; i++) {
+        options[i].disabled = false;
+    }
+
+    // Deaktiviere bestimmte Optionen und ändere ICAO/IATA Codes basierend auf der Auswahl
+    switch (selectedValue) {
+        case 'MDPC': // Punta Cana
+            icaoCodeElement.textContent = 'MDPC';
+            iataCodeElement.textContent = 'PUJ';
+            updateAirportChart('MDPC'); // Bild aktualisieren
+            break;
+        case 'GCLP': // Gran Canaria
+            icaoCodeElement.textContent = 'GCLP';
+            iataCodeElement.textContent = 'LPA';
+            updateAirportChart('GCLP');
+            break;
+        case 'EGKK': // London Gatwick
+            icaoCodeElement.textContent = 'EGKK';
+            iataCodeElement.textContent = 'LHR';
+            updateAirportChart('EGKK');
+            break;
+        case 'MDAB': // Arroyo Barril
+            icaoCodeElement.textContent = 'MDAB';
+            iataCodeElement.textContent = 'BRX';
+            updateAirportChart('MDAB');
+            break;
+        case 'MDST': // Cibao
+            icaoCodeElement.textContent = 'MDST';
+            iataCodeElement.textContent = 'STI';
+            updateAirportChart('MDST');
+            break;
+        case 'EFKT': // Kittila
+            icaoCodeElement.textContent = 'EFKT';
+            iataCodeElement.textContent = 'KTT';
+            updateAirportChart('EFKT');
+            break;
+        case 'LYTV': // Tivat
+            icaoCodeElement.textContent = 'LYTV';
+            iataCodeElement.textContent = 'TIV';
+            updateAirportChart('LYTV');
+            break;
+        case 'LEMH': // Menorca
+            icaoCodeElement.textContent = 'LEMH';
+            iataCodeElement.textContent = 'MAH';
+            updateAirportChart('LEMH');
+            break;
+        case 'EGHI': // Southampton
+            icaoCodeElement.textContent = 'EGHI';
+            iataCodeElement.textContent = 'SOU';
+            updateAirportChart('EGHI');
+            break;
+        default:
+            icaoCodeElement.textContent = 'N/A';
+            iataCodeElement.textContent = 'N/A';
+            break;
+    }
+
+    // Deaktiviere bestimmte Optionen in der zweiten Dropdown-Liste basierend auf der Auswahl
+    switch (selectedValue) {
+        case 'MDPC': // Punta Cana
+        case 'EGKK': // London Gatwick
+            // Keine Einschränkungen, alle Optionen bleiben aktiviert
+            break;
+
+        case 'MDST': // Cibao
+        case 'MDAB': // Arroyo Barril
+        case 'EGHI': // Southampton
+        case 'EFKT': // Kittila
+        case 'LYTV': // Tivat
+            // Nur TWR aktiv, alle anderen deaktivieren
+            for (let i = 0; i < options.length; i++) {
+                if (options[i].value !== 'TWR') {
+                    options[i].disabled = true;
+                }
+            }
+            break;
+
+        case 'LEMH': // Menorca
+        case 'GCLP': // Gran Canaria
+            // Alle außer DEL aktiv
+            for (let i = 0; i < options.length; i++) {
+                if (options[i].value === 'DEL') {
+                    options[i].disabled = true;
+                }
+            }
+            break;
+
+        default:
+            // Fallback: Alle Optionen aktivieren
+            for (let i = 0; i < options.length; i++) {
+                options[i].disabled = false;
+            }
+    }
+});
+
+// Open the zoomed image
+function openZoom() {
+    document.getElementById('zoomPopup').style.display = 'flex';
+}
+
+// Close the zoomed image
+function closeZoom() {
+    document.getElementById('zoomPopup').style.display = 'none';
+}
+
+
+// Funktion zum Öffnen des Zoom-Popups
+function openZoom() {
+    const zoomPopup = document.getElementById('zoomPopup');
+    const zoomImage = document.getElementById('zoomImage');
+    const zoomedImage = document.getElementById('zoomedImage');
+    
+    // Kopiere die Quelle des Bildes in das vergrößerte Bild
+    zoomedImage.src = zoomImage.src;
+    
+    // Zeige das Popup an, indem die "show" Klasse hinzugefügt wird
+    zoomPopup.classList.add('show');
+}
+
+// Funktion zum Schließen des Zoom-Popups
+function closeZoom() {
+    const zoomPopup = document.getElementById('zoomPopup');
+    
+    // Entferne die "show" Klasse, um das Popup zu verstecken
+    zoomPopup.classList.remove('show');
+}
+
+// Füge Event Listener hinzu, um das Popup zu schließen, wenn das Overlay geklickt wird
+document.getElementById('zoomPopup').addEventListener('click', function (event) {
+    // Verhindert, dass das Popup geschlossen wird, wenn auf das Bild selbst geklickt wird
+    if (event.target === this) {
+        closeZoom();
+    }
+});
+
+const addStripBtn = document.getElementById("addStripBtn");
+const deleteStripBtn = document.getElementById("deleteStripBtn");
+
+// Funktion zum Hinzufügen eines neuen Strips
+addStripBtn.addEventListener("click", () => {
+  const newStrip = createStrip();
+  document.getElementById("delivery-zone").appendChild(newStrip);
+});
+
+// Funktion zum Erstellen eines neuen Strips
+function createStrip() {
+  const newStrip = document.createElement("div");
+  newStrip.classList.add("strip");
+
+  // Die Reihenfolge und Struktur der Zellen gemäß dem Screenshot
+  const labels = [
+    ["C/S", "TEMP ALT", "DEP AIR", ""], // Erste Zeile
+    ["A/C", "", "ARR AIR", "DEP SID"], // Zweite Zeile
+    ["SQUAWK", "CRZ ALT", "ALT AIR", "RWY"], // Dritte Zeile
+    ["ROUTE", "", "", ""] // Vierte Zeile (nur Route, ohne Ränder)
+  ];
+
+  // Erstelle Zellen mit Texten wie im Screenshot und füge sie zum Strip hinzu
+  labels.forEach((row, rowIndex) => {
+    row.forEach((label, colIndex) => {
+      const cell = document.createElement("div");
+      cell.classList.add("cell");
+
+      // Wenn es sich um die Zellen TEMP ALT, SQUAWK oder CRZ ALT handelt,
+      // dann nur Zahlen erlauben
+      if (label === "TEMP ALT" || label === "SQUAWK" || label === "CRZ ALT") {
+        cell.setAttribute("contenteditable", "true");
+        cell.addEventListener("input", restrictToNumbers); // Nur Zahlen zulassen
+      }
+
+      // Wenn es die Route-Zelle ist, soll sie die ganze Zeile einnehmen
+      if (rowIndex === 3) {
+        cell.classList.add("route-cell"); // Füge eine spezielle Klasse hinzu
+        cell.setAttribute("contenteditable", "true"); // Ermöglicht die Bearbeitung der Route-Zelle
+        cell.style.gridColumn = "span 4"; // Route soll die ganze Zeile einnehmen
+      }
+
+      cell.textContent = label; // Text in die Zelle einfügen
+      newStrip.appendChild(cell);
+
+      // Doppelklick-Event für editierbare Zellen
+      cell.addEventListener("dblclick", () => {
+        cell.setAttribute("contenteditable", "true");
+        cell.focus();
+      });
+    });
+  });
+
+  newStrip.setAttribute("draggable", "true");
+
+  // Drag-and-Drop Event-Listener hinzufügen
+  newStrip.addEventListener("dragstart", dragStart);
+  newStrip.addEventListener("dragend", dragEnd);
+
+  return newStrip; // Rückgabe des neuen Strips
+}
+
+// Funktion zum Löschen des neuesten Strips
+deleteStripBtn.addEventListener("click", () => {
+    const deliveryZone = document.getElementById("delivery-zone");
+    const strips = deliveryZone.getElementsByClassName("strip");
+    if (strips.length > 0) {
+      deliveryZone.removeChild(strips[strips.length - 1]); // Letztes Element entfernen
+    }
+  });
+  
+
+
+// Nur Zahlen zulassen
+function restrictToNumbers(event) {
+  const value = event.target.textContent;
+  if (!/^\d*$/.test(value)) {
+    event.target.textContent = value.replace(/[^\d]/g, ''); // Nur Zahlen erlauben
+  }
+}
+
+// Drag-and-Drop-Funktionalität
+const zones = document.querySelectorAll(".strip-zone");
+zones.forEach(zone => {
+  zone.addEventListener("dragover", dragOver);
+  zone.addEventListener("drop", dropStrip);
+});
+
+let draggedStrip = null;
+
+function dragStart(event) {
+  draggedStrip = this;
+  this.classList.add("dragging");
+  event.dataTransfer.effectAllowed = "move";
+}
+
+function dragEnd() {
+  this.classList.remove("dragging");
+  draggedStrip = null;
+}
+
+function dragOver(event) {
+  event.preventDefault(); // Standardverhalten verhindern
+  event.dataTransfer.dropEffect = "move";
+}
+
+function dropStrip(event) {
+  event.preventDefault(); // Standardverhalten verhindern
+  if (draggedStrip) {
+    this.appendChild(draggedStrip);
+  }
+}
+
